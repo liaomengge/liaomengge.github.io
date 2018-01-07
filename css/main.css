@@ -2102,7 +2102,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff;
+  background: #ff59b1;
 }
 .links-of-author-item {
   text-align: center;
@@ -2503,9 +2503,6 @@ img:hover {
 #gitment-display-button:hover {
   color: #fff;
   background: #0a9caf;
-}
-#gitment-container a {
-  border-bottom: none;
 }
 .post-spread {
   margin-top: 20px;
