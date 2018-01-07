@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Github + Hexo搭建个人Blog]]></title>
     <url>%2F2018%2F01%2F06%2FGithub-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BABlog%2F</url>
-    <content type="text"><![CDATA[菜单栏设置[主题配置]menu: home: / || home tags: /tags/ || tags categories: /categories/ || th archives: /archives/ || archive about: /about/ || user #schedule: /schedule/ || calendar #sitemap: /sitemap.xml || sitemap #commonweal: /404/ || heartbeat]]></content>
+    <content type="text"><![CDATA[Hello, World]]></content>
       <categories>
         <category>hexo</category>
       </categories>
