@@ -4,6 +4,9 @@
     <title><![CDATA[Github + Hexo搭建个人Blog]]></title>
     <url>%2F2018%2F01%2F06%2FGithub-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BABlog%2F</url>
     <content type="text"><![CDATA[Hello, World]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
       <tags>
         <tag>hexo</tag>
       </tags>
