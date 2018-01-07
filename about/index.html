@@ -88,17 +88,17 @@
 
 
 
-<meta name="description" content="关于我">
+<meta name="description" content="* About Me">
 <meta property="og:type" content="website">
 <meta property="og:title" content="about">
 <meta property="og:url" content="https://liaomengge.github.io/about/index.html">
 <meta property="og:site_name" content="少年与海">
-<meta property="og:description" content="关于我">
+<meta property="og:description" content="* About Me">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-01-06T12:18:27.000Z">
+<meta property="og:updated_time" content="2018-01-07T10:30:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="about">
-<meta name="twitter:description" content="关于我">
+<meta name="twitter:description" content="* About Me">
 
 
 
@@ -320,7 +320,7 @@
       <div class="post-body">
         
         
-          <p>关于我</p>
+          <p><em>*</em> About Me</p>
 
         
       </div>
@@ -351,6 +351,8 @@
     </div>
 
   
+
+
 
         </div>
         
@@ -687,29 +689,29 @@
 
 
 
-   
-   
-   
-   
-   <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-   <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-   
-       <script type="text/javascript">
-           function ShowGitment(){
-               document.getElementById("gitment-display-button").style.display = "none";
-               document.getElementById("gitment-container").style.display = "block";
-               var gitment = new Gitment({
-                   id: document.location.href,
-                   owner: 'liaomengge',
-                   repo: 'liaomengge.github.io',
-                   oauth: {
-                       client_id: 'f09f569d7cbf8cc892ab',
-                       client_secret: 'ea5f4f734248de1587e7321e1204ad50da2900d7',
-                   }});
-               gitment.render('gitment-container');
-           }
-       </script>
-   
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    
+        <script type="text/javascript">
+            function showGitment(){
+                document.getElementById("gitment-display-button").style.display = "none";
+                document.getElementById("gitment-container").style.display = "block";
+                var gitment = new Gitment({
+                        id: window.location.pathname,
+                        owner: '',
+                        repo: '',
+                        oauth: {
+                            client_id: '',
+                            client_secret: '',
+                        }});
+                gitment.render('gitment-container');
+            }
+        </script>
+    
 
 
 
