@@ -1990,7 +1990,10 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffd1ff;
+  background: #6c302f;
+}
+.links-of-author-item {
+  text-align: center;
 }
 .links-of-blogroll {
   font-size: 13px;
